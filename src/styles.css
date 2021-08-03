@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #202020;
+  --secondary-color: #fff;
+  --primary-font-family: "Roboto";
+  --secondary-font-family: "Montserrat";
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: ;
+}
+
+.hero {
+  background-color: var(--primary-color);
+}
+.navbar {
+  color: var(--primary-color);
+}
+.nav-link {
+  color: var(--secondary-color);
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  position: relative;
+  left: 1000px;
+}
