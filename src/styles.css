@@ -5,22 +5,60 @@
   --secondary-font-family: "Montserrat";
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-  width: ;
+body {
+  background-color: var(--primary-color);
+  background-image: url("/images/bg.png");
+  color: var(--secondary-color);
 }
 
-.hero {
-  background-color: var(--primary-color);
+h1 {
+  text-transform: uppercase;
 }
-.navbar {
-  color: var(--primary-color);
+
+h2 {
+  display: block;
+  margin: 0 auto;
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  padding-top: 150px;
+  text-align: center;
+  text-transform: uppercase;
 }
+
+p {
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+  line-height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 460px;
+  height: 60px;
+}
+
+.logo {
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
 .nav-link {
   color: var(--secondary-color);
   font-family: var(--primary-font-family);
   font-weight: 500;
   position: relative;
-  left: 1000px;
+  left: 910px;
+  top: 20px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.btn-branding {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font-family);
+  text-align: center;
 }
