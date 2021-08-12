@@ -8,6 +8,8 @@
 body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  display: block;
+  margin: 0 auto;
 }
 
 h1 {
@@ -68,8 +70,8 @@ p {
 }
 
 .hero {
-  position: relative;
-  top: -625px;
+  position: absolute;
+  top: 275px;
   text-align: center;
 }
 
@@ -112,4 +114,9 @@ p {
   margin-top: 40px;
   margin-right: 40px;
   padding: none;
+  padding: 0 0 100px 0;
+}
+
+.test {
+  padding-left: 30px;
 }
